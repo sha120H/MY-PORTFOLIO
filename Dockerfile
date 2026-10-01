@@ -16,7 +16,7 @@ COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
 
-# Ihanda ang database at storage folders na may tamang permissions
+# Gumawa ng database folder at storage permissions
 RUN mkdir -p /var/www/html/database \
     && touch /var/www/html/database/database.sqlite \
     && mkdir -p /var/www/html/storage/framework/sessions \
@@ -24,10 +24,6 @@ RUN mkdir -p /var/www/html/database \
     && mkdir -p /var/www/html/storage/framework/cache \
     && chown -R www-data:www-data /var/www/html \
     && chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/database
-
-RUN php artisan config:clear \
-    && php artisan route:clear \
-    && php artisan view:clear
 
 ENV APACHE_DOCUMENT_ROOT /var/www/html/public
 RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
