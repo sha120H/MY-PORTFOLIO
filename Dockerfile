@@ -1,12 +1,9 @@
 FROM php:8.2-apache
 
 RUN apt-get update && apt-get install -y \
-    libpng-dev \
-    libjpeg-dev \
-    libfreetype6-dev \
     zip \
     unzip \
-    && docker-php-ext-install pdo pdo_mysql pdo_sqlite gd
+    && docker-php-ext-install pdo pdo_mysql pdo_sqlite
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
@@ -15,7 +12,6 @@ COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
 
-# Gumawa ng database, storage folders, at itakda ang tamang permissions
 RUN mkdir -p /var/www/html/database \
     && touch /var/www/html/database/database.sqlite \
     && mkdir -p /var/www/html/storage/framework/sessions \
