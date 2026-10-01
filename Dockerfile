@@ -16,7 +16,7 @@ COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
 
-# Gumawa ng database.sqlite, itakda ang permissions, at i-run ang migrations
+# Ihanda ang database at storage folders na may tamang permissions
 RUN mkdir -p /var/www/html/database \
     && touch /var/www/html/database/database.sqlite \
     && mkdir -p /var/www/html/storage/framework/sessions \
@@ -27,8 +27,7 @@ RUN mkdir -p /var/www/html/database \
 
 RUN php artisan config:clear \
     && php artisan route:clear \
-    && php artisan view:clear \
-    && php artisan migrate --force
+    && php artisan view:clear
 
 ENV APACHE_DOCUMENT_ROOT /var/www/html/public
 RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
