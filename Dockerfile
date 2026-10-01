@@ -31,4 +31,4 @@ RUN sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf
 RUN a2enmod rewrite
 
 EXPOSE 80
-CMD ["sh", "-c", "php artisan key:generate --force && apache2-foreground"]
+CMD ["sh", "-c", "php artisan key:generate --force && php artisan migrate --force && apache2-foreground"]
