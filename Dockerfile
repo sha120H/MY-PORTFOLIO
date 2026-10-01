@@ -16,14 +16,15 @@ COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
 
-# Ayusin ang folders at permissions
-RUN mkdir -p /var/www/html/storage/framework/sessions \
+# Gumawa ng database.sqlite kung wala pa at ayusin ang permissions
+RUN mkdir -p /var/www/html/database \
+    && touch /var/www/html/database/database.sqlite \
+    && mkdir -p /var/www/html/storage/framework/sessions \
     && mkdir -p /var/www/html/storage/framework/views \
     && mkdir -p /var/www/html/storage/framework/cache \
     && chown -R www-data:www-data /var/www/html \
-    && chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
+    && chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/database
 
-# I-clear at i-cache ang Laravel config para maiwasan ang 500 error
 RUN php artisan config:clear \
     && php artisan route:clear \
     && php artisan view:clear
