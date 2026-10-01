@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="[color-scheme:dark]">
 <head>
     <title>Portfolio - About</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Walang nilagay na custom scrollbar CSS para manatili ang mga arrow ▲ at ▼ -->
 </head>
 
-<body class="w-full min-h-screen overflow-x-hidden bg-[linear-gradient(to_top,rgba(0,0,0,0.959),rgb(70,1,49),rgb(19,18,18))] m-0 p-0 box-border select-none text-[#fce7f3]">
+<body class="w-full min-h-screen overflow-x-hidden overflow-y-auto bg-[linear-gradient(to_top,rgba(0,0,0,0.959),rgb(70,1,49),rgb(19,18,18))] m-0 p-0 box-border select-none text-[#fce7f3]">
 
    @include('navigation')
 
-    <!-- Centered Title-->
-    <div class="fixed top-[125px] left-1/2 -translate-x-1/2 text-center z-20 pointer-events-none w-full px-4">
+    <!-- Centered Title -->
+    <div class="relative pt-[125px] text-center w-full px-4">
         <h2 class="text-[30px] font-bold tracking-wide font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif] text-[rgb(201,167,167)]">
             WELCOME!
         </h2>
@@ -22,7 +23,8 @@
         </h3>
     </div>
 
-    <div class="fixed top-[250px] left-1/2 -translate-x-1/2 text-center w-[90%] sm:w-[440px] lg:w-[700px] text-[20px] sm:text-[20px] font-[500] text-justify font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif] text-[rgb(201,167,167)] leading-relaxed space-y-6 z-10">
+    <!-- Content (Lalabas lang ang scrollbar kapag hindi na makita ang text) -->
+    <div class="relative mx-auto mt-[40px] pb-16 text-center w-[90%] sm:w-[440px] lg:w-[700px] text-[20px] sm:text-[20px] font-[500] text-justify font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif] text-[rgb(201,167,167)] leading-relaxed space-y-6">
         <p>
             I am passionate about web development, design, and creating digital solutions. 
             My experience in painting, digital art, and freehand drawing has strengthened 
