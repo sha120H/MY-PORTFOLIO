@@ -15,6 +15,7 @@ COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
 
+# Siguraduhing may database, storage, at tamang permissions
 RUN mkdir -p /var/www/html/database \
     && touch /var/www/html/database/database.sqlite \
     && mkdir -p /var/www/html/storage/framework/sessions \
@@ -34,4 +35,4 @@ RUN sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf
 RUN a2enmod rewrite
 
 EXPOSE 80
-CMD ["apache2-foreground"]
+CMD ["sh", "-c", "php artisan key:generate --force && php artisan migrate --force && apache2-foreground"]
