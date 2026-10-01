@@ -16,11 +16,17 @@ COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
 
+# Ayusin ang folders at permissions
 RUN mkdir -p /var/www/html/storage/framework/sessions \
     && mkdir -p /var/www/html/storage/framework/views \
     && mkdir -p /var/www/html/storage/framework/cache \
     && chown -R www-data:www-data /var/www/html \
     && chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
+
+# I-clear at i-cache ang Laravel config para maiwasan ang 500 error
+RUN php artisan config:clear \
+    && php artisan route:clear \
+    && php artisan view:clear
 
 ENV APACHE_DOCUMENT_ROOT /var/www/html/public
 RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
