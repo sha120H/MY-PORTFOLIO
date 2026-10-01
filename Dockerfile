@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
     zip \
     unzip \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install gd pdo pdo_mysql
+    && docker-php-ext-install gd pdo pdo_mysql pdo_sqlite
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
@@ -16,7 +16,7 @@ COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
 
-# Gumawa ng database.sqlite kung wala pa at ayusin ang permissions
+# Gumawa ng database.sqlite, itakda ang permissions, at i-run ang migrations
 RUN mkdir -p /var/www/html/database \
     && touch /var/www/html/database/database.sqlite \
     && mkdir -p /var/www/html/storage/framework/sessions \
@@ -27,7 +27,8 @@ RUN mkdir -p /var/www/html/database \
 
 RUN php artisan config:clear \
     && php artisan route:clear \
-    && php artisan view:clear
+    && php artisan view:clear \
+    && php artisan migrate --force
 
 ENV APACHE_DOCUMENT_ROOT /var/www/html/public
 RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
