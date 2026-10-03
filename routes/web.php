@@ -14,7 +14,6 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
-// 👉 Idagdag ito para sa Skills:
 Route::get('/skills', function () {
     return view('skills');
 })->name('skills');

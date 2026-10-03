@@ -65,7 +65,7 @@
                 </div>
                 
                 <div class="flex items-center justify-between gap-3 mt-1">
-                    <a href="tel:09617103750" class="text-[18px] sm:text-[18px] font-bold font-['JetBrains_Mono',monospace] tracking-wider text-white hover:text-pink-300 transition-colors no-underline">
+                    <a href="tel:09617103750" class="text-[18px] sm:text-[16px] font-bold font-['JetBrains_Mono',monospace] tracking-wider text-white hover:text-pink-300 transition-colors no-underline">
                         0961-710-3750
                     </a>
                     
@@ -98,7 +98,7 @@
                 </div>
                 
                 <div class="flex items-center justify-between gap-3 mt-1">
-                    <a href="mailto:yesshahernandez12@gmail.com" class="text-[16px] sm:text-[18px] font-semibold text-white hover:text-pink-300 transition-colors no-underline truncate">
+                    <a href="mailto:yesshahernandez12@gmail.com" class="text-[16px] sm:text-[16px] font-semibold text-white hover:text-pink-300 transition-colors no-underline truncate">
                         yesshahernandez12@gmail.com
                     </a>
                     

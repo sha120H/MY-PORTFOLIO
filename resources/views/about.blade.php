@@ -24,12 +24,11 @@
     </div>
 
     <!-- Content (Lalabas lang ang scrollbar kapag hindi na makita ang text) -->
-    <div class="relative mx-auto mt-[40px] pb-16 text-center w-[90%] sm:w-[440px] lg:w-[700px] text-[20px] sm:text-[20px] font-[500] text-justify font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif] text-[rgb(201,167,167)] leading-relaxed space-y-6">
+    <div class="relative mx-auto mt-[40px] pb-16 text-center w-[90%] sm:w-[440px] lg:w-[700px] text-[15px] sm:text-[20px] font-[500] text-justify font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif] text-[rgb(201,167,167)] leading-relaxed space-y-6">
         <p>
-            I am passionate about web development, design, and creating digital solutions. 
-            My experience in painting, digital art, and freehand drawing has strengthened 
-            my creativity and attention to detail, while also inspiring me to pursue a career 
-            in the technology field.
+            Creative and detail-oriented individual with a strong interest in web development 
+            and digital design. A background in painting, digital art, and freehand drawing has 
+            strengthened my creativity and motivated me to pursue a career in the technology field.
         </p>
         <p>
             My experience in data encoding and labeling has developed my ability to work 
@@ -37,11 +36,9 @@
             to work.
         </p>
         <p>
-            I am particularly interested in web development and creating websites 
-            that enhance a business's online presence and brand recognition. I am 
-            comfortable working independently, taking responsibility for assigned 
-            tasks, and continuously learning new skills. My goal is to further 
-            develop my abilities and become a skilled and effective web developer.
+            I am comfortable working independently, taking responsibility for assigned 
+            tasks, and continuously learning new skills. My goal is to further develop 
+            my abilities and become a skilled and effective web developer.
         </p>
     </div>
 

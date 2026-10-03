@@ -38,7 +38,7 @@
 @include('navigation')
 
     <div class="w-full flex justify-center pt-[130px] z-20">
-        <div class="inline-flex items-center justify-center text-[rgb(201,167,167)] font-['Franklin_Gothic_Medium'] text-[26px] border-2 border-solid border-[rgb(88,1,55)] bg-transparent px-[50px] py-[8px] tracking-widest shadow-lg">
+        <div class="inline-flex items-center text-center justify-center text-[rgb(201,167,167)] font-['Franklin_Gothic_Medium'] text-[26px] border-2 border-solid border-[rgb(88,1,55)] bg-transparent px-[40px] py-[8px] tracking-widest shadow-lg">
             TOOLS
         </div>
     </div>
@@ -184,7 +184,8 @@
                     <span class="badge-corel px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-lime-400 hover:text-lime-300 hover:bg-lime-400/10 transition-all duration-200 cursor-pointer">CorelDraw</span>
                     <span class="badge-sketchup px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-red-500 hover:text-red-400 hover:bg-red-500/10 transition-all duration-200 cursor-pointer">SketchUp</span>
                     <span class="badge-canva px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-teal-400 hover:text-teal-300 hover:bg-teal-400/10 transition-all duration-200 cursor-pointer">Canva</span>
-                    <span class="badge-googlesites px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-blue-400 hover:text-blue-300 hover:bg-blue-400/10 transition-all duration-200 cursor-pointer">Google Sites</span>
+                    <span class="badge-WordPress px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-blue-400 hover:text-blue-300 hover:bg-blue-400/10 transition-all duration-200 cursor-pointer">WordPress</span>
+                    <span class="badge-figma px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-purple-400 hover:text-purple-300 hover:bg-purple-400/10 transition-all duration-200 cursor-pointer">Figma</span>
                 </div>
             </div>
 
