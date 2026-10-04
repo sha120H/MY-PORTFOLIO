@@ -23,29 +23,29 @@
 
         <!-- GET IN TOUCH -->
         <div class="w-full flex flex-col items-center justify-center mb-10 text-center">
-            <div class="inline-flex items-center justify-center text-[#fce7f3] font-['Franklin_Gothic_Medium','Plus_Jakarta_Sans',sans-serif] text-[22px] sm:text-[25px] font-bold border-2 border-solid border-pink-700/80 bg-[#21051b]/80 px-[40px] sm:px-[50px] py-[8px] tracking-[0.25em] shadow-[0_0_25px_rgba(219,39,119,0.35)] uppercase">
+            <div class="inline-flex items-center justify-center whitespace-nowrap text-[#fce7f3] font-['Franklin_Gothic_Medium','Plus_Jakarta_Sans',sans-serif] text-[18px] min-[400px]:text-[22px] sm:text-[25px] font-bold border-2 border-solid border-pink-700/80 bg-[#21051b]/80 px-5 min-[400px]:px-6 sm:px-[50px] py-[8px] tracking-[0.15em] sm:tracking-[0.25em] shadow-[0_0_25px_rgba(219,39,119,0.35)] uppercase">
                 GET IN TOUCH
             </div>
-            <p class="text-[14px] sm:text-[15px] text-pink-200/80 mt-4 max-w-lg leading-relaxed font-normal">
+            <p class="text-[13px] min-[400px]:text-[14px] sm:text-[15px] text-pink-200/80 mt-4 max-w-lg leading-relaxed font-normal">
                 Have an inquiry, project or collaboration opportunity? Reach out directly through phone, email, or send a message below.
             </p>
         </div>
 
         <!-- Contact Card Box-->
-        <div class="w-full max-w-3xl rounded-2xl border border-pink-900/60 bg-[#190416]/90 backdrop-blur-sm p-6 sm:p-8 shadow-[0_8px_35px_rgba(0,0,0,0.6)]">
+        <div class="w-full max-w-3xl rounded-2xl border border-pink-900/60 bg-[#190416]/90 backdrop-blur-sm p-4 sm:p-8 shadow-[0_8px_35px_rgba(0,0,0,0.6)]">
             
             <!-- DIRECT CONTACT CHANNELS -->
-            <div class="flex items-center justify-between pb-4 border-b border-pink-900/40 mb-6">
-                <div class="flex items-center gap-2 text-pink-400 font-bold text-sm tracking-wider uppercase">
+            <div class="flex items-center justify-between gap-2 pb-4 border-b border-pink-900/40 mb-6">
+                <div class="flex items-center gap-1.5 sm:gap-2 text-pink-400 font-bold text-[11px] tracking-normal min-[400px]:text-xs min-[400px]:tracking-wider sm:text-sm uppercase whitespace-nowrap">
                     <!-- Sparkle Icon -->
-                    <svg class="w-4 h-4 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-4 h-4 text-pink-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                     </svg>
                     <span>DIRECT CONTACT CHANNELS</span>
                 </div>
 
                 <!-- Save vCard Button -->
-                <button onclick="downloadVCard()" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#24061f] border border-pink-900/60 text-xs text-pink-200 hover:text-white hover:border-pink-500 transition-all cursor-pointer">
+                <button onclick="downloadVCard()" class="inline-flex items-center gap-1.5 shrink-0 whitespace-nowrap px-2.5 sm:px-3 py-1 rounded-md bg-[#24061f] border border-pink-900/60 text-[11px] sm:text-xs text-pink-200 hover:text-white hover:border-pink-500 transition-all cursor-pointer">
                     <!-- Download Icon -->
                     <svg class="w-3.5 h-3.5 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
@@ -65,7 +65,7 @@
                 </div>
                 
                 <div class="flex items-center justify-between gap-3 mt-1">
-                    <a href="tel:09617103750" class="text-[18px] sm:text-[16px] font-bold font-['JetBrains_Mono',monospace] tracking-wider text-white hover:text-pink-300 transition-colors no-underline">
+                    <a href="tel:09617103750" class="text-[13px] min-[400px]:text-[14px] sm:text-[16px] font-bold font-['JetBrains_Mono',monospace] tracking-wider text-white hover:text-pink-300 transition-colors no-underline whitespace-nowrap">
                         0961-710-3750
                     </a>
                     
@@ -80,7 +80,7 @@
                         
                         <!-- Call Button -->
                         <a href="tel:09617103750" 
-                           class="px-4 py-1.5 rounded-lg bg-pink-900/60 border border-pink-700/80 text-xs sm:text-sm font-semibold text-pink-100 hover:bg-pink-800/80 hover:border-pink-500 transition-all cursor-pointer no-underline flex items-center justify-center">
+                           class="px-3 sm:px-4 py-1.5 rounded-lg bg-pink-900/60 border border-pink-700/80 text-xs sm:text-sm font-semibold text-pink-100 hover:bg-pink-800/80 hover:border-pink-500 transition-all cursor-pointer no-underline flex items-center justify-center">
                             Call
                         </a>
                     </div>
@@ -97,12 +97,12 @@
                     <span>E-mail:</span>
                 </div>
                 
-                <div class="flex items-center justify-between gap-3 mt-1">
-                    <a href="mailto:yesshahernandez12@gmail.com" class="text-[16px] sm:text-[16px] font-semibold text-white hover:text-pink-300 transition-colors no-underline truncate">
+                <div class="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between mt-1">
+                    <a href="mailto:yesshahernandez12@gmail.com" class="max-w-full whitespace-nowrap text-[13px] min-[400px]:text-[14px] sm:text-[16px] font-semibold text-white hover:text-pink-300 transition-colors no-underline">
                         yesshahernandez12@gmail.com
                     </a>
                     
-                    <div class="flex items-center gap-2 shrink-0">
+                    <div class="flex items-center gap-2 shrink-0 self-end sm:self-auto">
                         <!-- Copy Button -->
                         <button onclick="copyToClipboard('yesshahernandez12@gmail.com', 'Email Address')" 
                                 class="p-2 sm:px-3 sm:py-1.5 rounded-lg bg-[#270722] border border-pink-800/70 text-pink-200 hover:text-white hover:border-pink-500 transition-all cursor-pointer flex items-center justify-center"
@@ -114,7 +114,7 @@
                         
                         <!-- Email Button -->
                         <a href="mailto:yesshahernandez12@gmail.com" 
-                           class="px-4 py-1.5 rounded-lg bg-pink-900/60 border border-pink-700/80 text-xs sm:text-sm font-semibold text-pink-100 hover:bg-pink-800/80 hover:border-pink-500 transition-all cursor-pointer no-underline flex items-center justify-center">
+                           class="px-3 sm:px-4 py-1.5 rounded-lg bg-pink-900/60 border border-pink-700/80 text-xs sm:text-sm font-semibold text-pink-100 hover:bg-pink-800/80 hover:border-pink-500 transition-all cursor-pointer no-underline flex items-center justify-center">
                             Email
                         </a>
                     </div>
