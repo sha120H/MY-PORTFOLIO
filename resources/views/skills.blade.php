@@ -38,8 +38,8 @@
 @include('navigation')
 
     <div class="w-full flex justify-center pt-[130px] z-20">
-        <div class="inline-flex items-center text-center justify-center text-[rgb(201,167,167)] font-['Franklin_Gothic_Medium'] text-[26px] border-2 border-solid border-[rgb(88,1,55)] bg-transparent px-[40px] py-[8px] tracking-widest shadow-lg">
-            TOOLS
+        <div class="inline-flex items-center text-center justify-center text-[rgb(201,167,167)] font-['Franklin_Gothic_Medium'] text-[24px] border-2 border-solid border-[rgb(88,1,55)] bg-transparent px-[40px] py-[8px] tracking-widest shadow-lg">
+            PRODUCTIVITY & OFFICE SUITES
         </div>
     </div>
 
@@ -119,7 +119,7 @@
         
         <!-- Header Title -->
         <div class="w-full border-b-2 border-[rgb(88,1,55)] pb-3 mb-8">
-            <h3 class="text-[24px] sm:text-[26px] font-bold text-[rgb(201,167,167)] font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif] tracking-wider uppercase">
+            <h3 class="text-[24px] sm:text-[24px] font-bold text-[rgb(201,167,167)] font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif] tracking-wider uppercase">
                 TECHNICAL SKILLS &amp; PROFICIENCIES
             </h3>
         </div>
@@ -184,7 +184,6 @@
                     <span class="badge-corel px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-lime-400 hover:text-lime-300 hover:bg-lime-400/10 transition-all duration-200 cursor-pointer">CorelDraw</span>
                     <span class="badge-sketchup px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-red-500 hover:text-red-400 hover:bg-red-500/10 transition-all duration-200 cursor-pointer">SketchUp</span>
                     <span class="badge-canva px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-teal-400 hover:text-teal-300 hover:bg-teal-400/10 transition-all duration-200 cursor-pointer">Canva</span>
-                    <span class="badge-WordPress px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-blue-400 hover:text-blue-300 hover:bg-blue-400/10 transition-all duration-200 cursor-pointer">WordPress</span>
                     <span class="badge-figma px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-purple-400 hover:text-purple-300 hover:bg-purple-400/10 transition-all duration-200 cursor-pointer">Figma</span>
                 </div>
             </div>
@@ -207,6 +206,9 @@
                 <div class="flex flex-wrap gap-2">
                     <span class="badge-composer px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-amber-600 hover:text-amber-400 hover:bg-amber-600/10 transition-all duration-200 cursor-pointer">Composer</span>
                     <span class="badge-docker px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-sky-400 hover:text-sky-300 hover:bg-sky-400/10 transition-all duration-200 cursor-pointer">Docker</span>
+                    <span class="badge-WordPress px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-blue-400 hover:text-blue-300 hover:bg-blue-400/10 transition-all duration-200 cursor-pointer">WordPress</span>
+                    <span class="badge-WordPress px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-gray-400 hover:text-gray-300 hover:bg-gray-400/10 transition-all duration-200 cursor-pointer">GitHub</span>
+                    <span class="badge-WordPress px-3.5 py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-sm font-medium hover:border-red-400 hover:text-red-300 hover:bg-red-400/10 transition-all duration-200 cursor-pointer">Render</span>
                 </div>
             </div>
 
