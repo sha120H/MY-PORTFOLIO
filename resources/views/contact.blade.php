@@ -45,7 +45,7 @@
                 </div>
 
                 <!-- Save vCard Button -->
-                <button onclick="downloadVCard()" class="inline-flex items-center gap-1.5 shrink-0 whitespace-nowrap px-2.5 sm:px-3 py-1 rounded-md bg-[#24061f] border border-pink-900/60 text-[11px] sm:text-xs text-pink-200 hover:text-white hover:border-pink-500 transition-all cursor-pointer">
+                <button onclick="downloadVCard()" class="inline-flex items-center gap-1.5 shrink-0 whitespace-nowrap px-2.5 sm:px-3 py-1 rounded-md bg-[#24061f] border border-pink-900/60 text-[12px] sm:text-sm text-pink-200 hover:text-white hover:border-pink-500 transition-all cursor-pointer">
                     <!-- Download Icon -->
                     <svg class="w-3.5 h-3.5 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
@@ -65,7 +65,7 @@
                 </div>
                 
                 <div class="flex items-center justify-between gap-3 mt-1">
-                    <a href="tel:09617103750" class="text-[13px] min-[400px]:text-[14px] sm:text-[16px] font-bold font-['JetBrains_Mono',monospace] tracking-wider text-white hover:text-pink-300 transition-colors no-underline whitespace-nowrap">
+                    <a href="tel:09617103750" class="text-[14px] min-[400px]:text-[14px] sm:text-[16px] font-bold font-['JetBrains_Mono',monospace] tracking-wider text-white hover:text-pink-300 transition-colors no-underline whitespace-nowrap">
                         0961-710-3750
                     </a>
                     
@@ -98,7 +98,7 @@
                 </div>
                 
                 <div class="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between mt-1">
-                    <a href="mailto:yesshahernandez12@gmail.com" class="max-w-full whitespace-nowrap text-[13px] min-[400px]:text-[14px] sm:text-[16px] font-semibold text-white hover:text-pink-300 transition-colors no-underline">
+                    <a href="mailto:yesshahernandez12@gmail.com" class="max-w-full whitespace-nowrap text-[14px] min-[400px]:text-[14px] sm:text-[16px] font-semibold text-white hover:text-pink-300 transition-colors no-underline">
                         yesshahernandez12@gmail.com
                     </a>
                     

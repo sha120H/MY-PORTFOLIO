@@ -38,7 +38,7 @@
 @include('navigation')
 
     <div class="w-full flex justify-center pt-[130px] px-4 z-20">
-        <div class="inline-flex items-center text-center justify-center whitespace-nowrap text-[rgb(201,167,167)] font-['Franklin_Gothic_Medium'] text-[14px] min-[400px]:text-[17px] sm:text-[24px] border-2 border-solid border-[rgb(88,1,55)] bg-transparent px-4 min-[400px]:px-6 sm:px-[35px] py-[8px] tracking-wider sm:tracking-widest shadow-lg">
+        <div class="inline-flex items-center text-center justify-center whitespace-nowrap text-[rgb(201,167,167)] font-['Franklin_Gothic_Medium'] text-[16px] min-[400px]:text-[19px] sm:text-[24px] border-2 border-solid border-[rgb(88,1,55)] bg-transparent px-4 min-[400px]:px-6 sm:px-[35px] py-[8px] tracking-wider sm:tracking-widest shadow-lg">
             PRODUCTIVITY & OFFICE SUITES
         </div>
     </div>
@@ -64,7 +64,7 @@
                 <div class="hidden w-[60px] h-[60px] rounded bg-emerald-950/80 border border-emerald-500/40 items-center justify-center text-emerald-300 font-bold text-sm">
                     Sheets
                 </div>
-                <span class="mt-2 text-xs sm:text-sm font-['Franklin_Gothic_Medium']">Google Sheets</span>
+                <span class="mt-2 text-[13px] sm:text-base font-['Franklin_Gothic_Medium']">Google Sheets</span>
             </div>
 
             <!-- Tool 2: MS Access -->
@@ -73,7 +73,7 @@
                 <div class="hidden w-[60px] h-[60px] rounded bg-rose-950/80 border border-rose-500/40 items-center justify-center text-rose-300 font-bold text-sm">
                     Access
                 </div>
-                <span class="mt-2 text-xs sm:text-sm font-['Franklin_Gothic_Medium']">MS Access</span>
+                <span class="mt-2 text-[13px] sm:text-base font-['Franklin_Gothic_Medium']">MS Access</span>
             </div>
 
             <!-- Tool 3: MS Excel -->
@@ -82,7 +82,7 @@
                 <div class="hidden w-[60px] h-[60px] rounded bg-green-950/80 border border-green-500/40 items-center justify-center text-green-300 font-bold text-base">
                     Excel
                 </div>
-                <span class="mt-2 text-xs sm:text-sm font-['Franklin_Gothic_Medium']">MS Excel</span>
+                <span class="mt-2 text-[13px] sm:text-base font-['Franklin_Gothic_Medium']">MS Excel</span>
             </div>
 
             <!-- Tool 4: MS PowerPoint -->
@@ -91,7 +91,7 @@
                 <div class="hidden w-[60px] h-[60px] rounded bg-orange-950/80 border border-orange-500/40 items-center justify-center text-orange-300 font-bold text-sm">
                     PPT
                 </div>
-                <span class="mt-2 text-xs sm:text-sm font-['Franklin_Gothic_Medium']">PowerPoint</span>
+                <span class="mt-2 text-[13px] sm:text-base font-['Franklin_Gothic_Medium']">PowerPoint</span>
             </div>
 
             <!-- Tool 5: MS Word -->
@@ -100,7 +100,7 @@
                 <div class="hidden w-[60px] h-[60px] rounded bg-blue-950/80 border border-blue-500/40 items-center justify-center text-blue-300 font-bold text-sm">
                     Word
                 </div>
-                <span class="mt-2 text-xs sm:text-sm font-['Franklin_Gothic_Medium']">MS Word</span>
+                <span class="mt-2 text-[13px] sm:text-base font-['Franklin_Gothic_Medium']">MS Word</span>
             </div>
 
             <!-- Tool 6: Google Sites -->
@@ -109,7 +109,7 @@
                 <div class="hidden w-[60px] h-[60px] rounded bg-sky-950/80 border border-sky-500/40 items-center justify-center text-sky-300 font-bold text-sm">
                     Sites
                 </div>
-                <span class="mt-2 text-xs sm:text-sm font-['Franklin_Gothic_Medium']">Google Sites</span>
+                <span class="mt-2 text-[13px] sm:text-base font-['Franklin_Gothic_Medium']">Google Sites</span>
             </div>
 
         </div>
@@ -119,7 +119,7 @@
         
         <!-- Header Title -->
         <div class="w-full border-b-2 border-[rgb(88,1,55)] pb-3 mb-8">
-            <h3 class="text-[14px] min-[400px]:text-[17px] sm:text-[24px] font-bold text-[rgb(201,167,167)] font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif] tracking-wider uppercase">
+            <h3 class="text-[16px] min-[400px]:text-[19px] sm:text-[24px] font-bold text-[rgb(201,167,167)] font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif] tracking-wider uppercase">
                 TECHNICAL SKILLS &amp; PROFICIENCIES
             </h3>
         </div>
@@ -129,39 +129,39 @@
             <!-- Card 1: Languages  -->
             <div class="p-4 sm:p-6 rounded-xl border-2 border-[rgb(88,1,55)] bg-[rgb(70,1,49)]/20 hover:bg-[rgb(70,1,49)]/30 transition-all shadow-xl">
                 <div class="flex items-center gap-2 sm:gap-2.5 pb-3 border-b border-[rgb(88,1,55)]/70 mb-4">
-                    <span class="px-2 py-0.5 sm:px-2.5 sm:py-1 rounded bg-amber-500/15 border border-amber-500/40 text-amber-300 font-mono text-xs sm:text-sm font-bold flex items-center justify-center">
+                    <span class="px-2 py-0.5 sm:px-2.5 sm:py-1 rounded bg-amber-500/15 border border-amber-500/40 text-amber-300 font-mono text-sm font-bold flex items-center justify-center">
                         &lt;/&gt;
                     </span>
-                    <h4 class="text-[13px] min-[400px]:text-[15px] sm:text-lg font-bold text-white font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif]">
+                    <h4 class="text-[15px] min-[400px]:text-[17px] sm:text-lg font-bold text-white font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif]">
                         Languages
                     </h4>
                 </div>
                 <div class="flex flex-wrap gap-1.5 sm:gap-2">
-                    <span class="badge-html px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-orange-500 hover:text-orange-400 hover:bg-orange-500/10 transition-all duration-200 cursor-pointer">HTML5</span>
-                    <span class="badge-css px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-sky-500 hover:text-sky-400 hover:bg-sky-500/10 transition-all duration-200 cursor-pointer">CSS3</span>
-                    <span class="badge-js px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-yellow-400 hover:text-yellow-300 hover:bg-yellow-400/10 transition-all duration-200 cursor-pointer">JavaScript</span>
-                    <span class="badge-php px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-indigo-400 hover:text-indigo-300 hover:bg-indigo-400/10 transition-all duration-200 cursor-pointer">PHP</span>
-                    <span class="badge-python px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-cyan-400 hover:text-cyan-300 hover:bg-cyan-400/10 transition-all duration-200 cursor-pointer">Python</span>
-                    <span class="badge-java px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-rose-500 hover:text-rose-400 hover:bg-rose-500/10 transition-all duration-200 cursor-pointer">Java</span>
-                    <span class="badge-sql px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-emerald-400 hover:text-emerald-300 hover:bg-emerald-400/10 transition-all duration-200 cursor-pointer">SQL</span>
+                    <span class="badge-html px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-orange-500 hover:text-orange-400 hover:bg-orange-500/10 transition-all duration-200 cursor-pointer">HTML5</span>
+                    <span class="badge-css px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-sky-500 hover:text-sky-400 hover:bg-sky-500/10 transition-all duration-200 cursor-pointer">CSS3</span>
+                    <span class="badge-js px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-yellow-400 hover:text-yellow-300 hover:bg-yellow-400/10 transition-all duration-200 cursor-pointer">JavaScript</span>
+                    <span class="badge-php px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-indigo-400 hover:text-indigo-300 hover:bg-indigo-400/10 transition-all duration-200 cursor-pointer">PHP</span>
+                    <span class="badge-python px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-cyan-400 hover:text-cyan-300 hover:bg-cyan-400/10 transition-all duration-200 cursor-pointer">Python</span>
+                    <span class="badge-java px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-rose-500 hover:text-rose-400 hover:bg-rose-500/10 transition-all duration-200 cursor-pointer">Java</span>
+                    <span class="badge-sql px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-emerald-400 hover:text-emerald-300 hover:bg-emerald-400/10 transition-all duration-200 cursor-pointer">SQL</span>
                 </div>
             </div>
 
             <!-- Card 2: Frameworks & Databases -->
             <div class="p-4 sm:p-6 rounded-xl border-2 border-[rgb(88,1,55)] bg-[rgb(70,1,49)]/20 hover:bg-[rgb(70,1,49)]/30 transition-all shadow-xl">
                 <div class="flex items-center gap-2 sm:gap-2.5 pb-3 border-b border-[rgb(88,1,55)]/70 mb-4">
-                    <span class="px-2 py-0.5 sm:px-2.5 sm:py-1 rounded bg-rose-500/15 border border-rose-500/40 text-rose-300 font-mono text-xs sm:text-sm font-bold flex items-center justify-center">
+                    <span class="px-2 py-0.5 sm:px-2.5 sm:py-1 rounded bg-rose-500/15 border border-rose-500/40 text-rose-300 font-mono text-sm font-bold flex items-center justify-center">
                         &#123;&nbsp;&#125;
                     </span>
-                    <h4 class="text-[13px] min-[400px]:text-[15px] sm:text-lg font-bold text-white font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif]">
+                    <h4 class="text-[15px] min-[400px]:text-[17px] sm:text-lg font-bold text-white font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif]">
                         Frameworks &amp; Databases
                     </h4>
                 </div>
                 <div class="flex flex-wrap gap-1.5 sm:gap-2">
-                    <span class="badge-laravel px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-red-500 hover:text-red-400 hover:bg-red-500/10 transition-all duration-200 cursor-pointer">Laravel</span>
-                    <span class="badge-node px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-green-500 hover:text-green-400 hover:bg-green-500/10 transition-all duration-200 cursor-pointer">Node.js</span>
-                    <span class="badge-mysql px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-amber-400 hover:text-amber-300 hover:bg-amber-400/10 transition-all duration-200 cursor-pointer">MySQL</span>
-                    <span class="badge-tailwind px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-cyan-400 hover:text-cyan-300 hover:bg-cyan-400/10 transition-all duration-200 cursor-pointer">Tailwind CSS</span>
+                    <span class="badge-laravel px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-red-500 hover:text-red-400 hover:bg-red-500/10 transition-all duration-200 cursor-pointer">Laravel</span>
+                    <span class="badge-node px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-green-500 hover:text-green-400 hover:bg-green-500/10 transition-all duration-200 cursor-pointer">Node.js</span>
+                    <span class="badge-mysql px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-amber-400 hover:text-amber-300 hover:bg-amber-400/10 transition-all duration-200 cursor-pointer">MySQL</span>
+                    <span class="badge-tailwind px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-cyan-400 hover:text-cyan-300 hover:bg-cyan-400/10 transition-all duration-200 cursor-pointer">Tailwind CSS</span>
                 </div>
             </div>
 
@@ -175,16 +175,16 @@
                             <path d="M9 21V9"></path>
                         </svg>
                     </span>
-                    <h4 class="text-[13px] min-[400px]:text-[15px] sm:text-lg font-bold text-white font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif]">
+                    <h4 class="text-[15px] min-[400px]:text-[17px] sm:text-lg font-bold text-white font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif]">
                         Design &amp; UI
                     </h4>
                 </div>
                 <div class="flex flex-wrap gap-1.5 sm:gap-2">
-                    <span class="badge-ai px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-amber-500 hover:text-amber-400 hover:bg-amber-500/10 transition-all duration-200 cursor-pointer">Adobe Illustrator</span>
-                    <span class="badge-corel px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-lime-400 hover:text-lime-300 hover:bg-lime-400/10 transition-all duration-200 cursor-pointer">CorelDraw</span>
-                    <span class="badge-sketchup px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-red-500 hover:text-red-400 hover:bg-red-500/10 transition-all duration-200 cursor-pointer">SketchUp</span>
-                    <span class="badge-canva px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-teal-400 hover:text-teal-300 hover:bg-teal-400/10 transition-all duration-200 cursor-pointer">Canva</span>
-                    <span class="badge-figma px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-purple-400 hover:text-purple-300 hover:bg-purple-400/10 transition-all duration-200 cursor-pointer">Figma</span>
+                    <span class="badge-ai px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-amber-500 hover:text-amber-400 hover:bg-amber-500/10 transition-all duration-200 cursor-pointer">Adobe Illustrator</span>
+                    <span class="badge-corel px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-lime-400 hover:text-lime-300 hover:bg-lime-400/10 transition-all duration-200 cursor-pointer">CorelDraw</span>
+                    <span class="badge-sketchup px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-red-500 hover:text-red-400 hover:bg-red-500/10 transition-all duration-200 cursor-pointer">SketchUp</span>
+                    <span class="badge-canva px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-teal-400 hover:text-teal-300 hover:bg-teal-400/10 transition-all duration-200 cursor-pointer">Canva</span>
+                    <span class="badge-figma px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-purple-400 hover:text-purple-300 hover:bg-purple-400/10 transition-all duration-200 cursor-pointer">Figma</span>
                 </div>
             </div>
 
@@ -199,16 +199,16 @@
                             <path d="M18 9a9 9 0 0 1-9 9"></path>
                         </svg>
                     </span>
-                    <h4 class="text-[13px] min-[400px]:text-[15px] sm:text-lg font-bold text-white font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif]">
+                    <h4 class="text-[15px] min-[400px]:text-[17px] sm:text-lg font-bold text-white font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif]">
                         DevOps Tools 
                     </h4>
                 </div>
                 <div class="flex flex-wrap gap-1.5 sm:gap-2">
-                    <span class="badge-composer px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-amber-600 hover:text-amber-400 hover:bg-amber-600/10 transition-all duration-200 cursor-pointer">Composer</span>
-                    <span class="badge-docker px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-sky-400 hover:text-sky-300 hover:bg-sky-400/10 transition-all duration-200 cursor-pointer">Docker</span>
-                    <span class="badge-WordPress px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-blue-400 hover:text-blue-300 hover:bg-blue-400/10 transition-all duration-200 cursor-pointer">WordPress</span>
-                    <span class="badge-WordPress px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-gray-400 hover:text-gray-300 hover:bg-gray-400/10 transition-all duration-200 cursor-pointer">GitHub</span>
-                    <span class="badge-WordPress px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[11px] min-[400px]:text-xs sm:text-sm font-medium hover:border-red-400 hover:text-red-300 hover:bg-red-400/10 transition-all duration-200 cursor-pointer">Render</span>
+                    <span class="badge-composer px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-amber-600 hover:text-amber-400 hover:bg-amber-600/10 transition-all duration-200 cursor-pointer">Composer</span>
+                    <span class="badge-docker px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-sky-400 hover:text-sky-300 hover:bg-sky-400/10 transition-all duration-200 cursor-pointer">Docker</span>
+                    <span class="badge-WordPress px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-blue-400 hover:text-blue-300 hover:bg-blue-400/10 transition-all duration-200 cursor-pointer">WordPress</span>
+                    <span class="badge-WordPress px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-gray-400 hover:text-gray-300 hover:bg-gray-400/10 transition-all duration-200 cursor-pointer">GitHub</span>
+                    <span class="badge-WordPress px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-md border border-[rgb(88,1,55)] bg-black/40 text-[rgb(201,167,167)] text-[13px] min-[400px]:text-sm font-medium hover:border-red-400 hover:text-red-300 hover:bg-red-400/10 transition-all duration-200 cursor-pointer">Render</span>
                 </div>
             </div>
 
