@@ -200,7 +200,7 @@
                         </svg>
                     </span>
                     <h4 class="text-lg font-bold text-white font-['Segoe_UI',Tahoma,Geneva,Verdana,sans-serif]">
-                        Development Workflow
+                        DevOps Tools 
                     </h4>
                 </div>
                 <div class="flex flex-wrap gap-2">
